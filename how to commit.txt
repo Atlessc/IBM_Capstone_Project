@@ -8,4 +8,8 @@ stage the changes
 
 commit with a message
 
+git push origin main
+
 enter in passphrase
+
+press enter
