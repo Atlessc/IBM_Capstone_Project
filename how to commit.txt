@@ -1,0 +1,11 @@
+get ssh key
+
+set passphrase
+
+clone
+
+stage the changes
+
+commit with a message
+
+enter in passphrase

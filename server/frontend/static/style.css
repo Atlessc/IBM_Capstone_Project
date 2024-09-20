@@ -125,9 +125,24 @@ img{
     box-shadow: 2px 2px 3px #999;  
 }
 
+.contact-card {
+    display: flex;
+    flex-direction: column;
+}
+
 .lower-card {
     display: flex;
     flex-direction: row;
 }
 
-.lower-card-left img { }
+.lower-card-left img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.lower-card-right {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
