@@ -4,9 +4,9 @@ set passphrase
 
 clone
 
-stage the changes
+git add .
 
-commit with a message
+git commit - m ""
 
 git push origin main
 
