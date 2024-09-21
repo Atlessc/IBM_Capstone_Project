@@ -4,6 +4,9 @@ set passphrase
 
 clone
 
+  git config --global user.email "tylersmith4596@gmail"
+  git config --global user.name "Tyler Smith"
+
 git add .
 
 git commit - m ""
