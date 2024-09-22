@@ -138,12 +138,13 @@ img {
 .lower-card {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .lower-card-left {
-    
+    width: 50%;
+    border-right: 1px solid black;
 }
 
 .lower-card-left img {
@@ -156,6 +157,7 @@ img {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    width: 50%;
 }
 
 .contact-item {
@@ -166,5 +168,17 @@ img {
 .contact-item>p {
     margin: 0;
     text-align: center;
+}
+
+.contact-item>p:first-child {
+    color: rgb(0, 136, 255);
+    font-weight: bolder;
+}
+
+.contact-item>p:last-child {
+    color: rgb(49, 159, 255);
+}
+
+.contact-item>p:last-child>a {
     text-decoration: none;
 }
